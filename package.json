@@ -10,7 +10,9 @@
     "performance:with-hooks": "npm run build && node dist/performance/with-hooks.js",
     "performance:no-hooks": "npm run build && node dist/performance/no-hooks.js",
     "performance:with-single-hook": "npm run build && node dist/performance/with-single-hook.js",
-    "performance:with-als": "npm run build && node dist/performance/with-als.js"
+    "performance:with-als": "npm run build && node dist/performance/with-als.js",
+    "threads:worker": "npm run build && node dist/threads/worker.js",
+    "threads:cluster": "npm run build && node dist/threads/cluster.js"
   },
   "keywords": [],
   "author": "",
